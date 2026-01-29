@@ -1,7 +1,7 @@
 students = []
 
 def show_options():
-  print("STUDENT MANAGEMENT SYSTEM")
+  print("\n---STUDENT MANAGEMENT SYSTEM---")
   print("1. Add Student")
   print("2. View Students")
   print("3. Search Students")
@@ -22,7 +22,7 @@ def view_students():
     print("No students available.")
     return
 
-  print("\n---Student List---)
+  print("\n---Student List---")
   for student in students:
     print(f"Roll: {student['roll']}, Name: {student['name']}, Marks: {student['marks']}")
 
